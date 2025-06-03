@@ -1,0 +1,509 @@
+/* Global Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf7f2;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px; /* Base font size */
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #5c3a21;
+}
+
+a {
+    color: #b08d57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px; /* Horizontal padding for container content */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.header-container { /* Specific container for header to manage padding */
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+nav a {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 0; /* Add some padding for easier tapping */
+    color: #5c3a21; /* Changed for better contrast */
+}
+
+nav a:hover {
+    color: #b08d57; /* Darker gold for hover, was #d4af7a */
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 20px; /* Reduced padding for general case, adjusted in MQ */
+    width: 100%;
+    height: 100%; /* Ensure overlay takes full height of parent */
+    box-sizing: border-box; /* Include padding in width/height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+    max-width: 600px; /* Prevent subheadline from being too wide */
+}
+
+#hero button {
+    background-color: #b08d57;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#hero button:hover {
+    background-color: #9c7b4f;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 0; /* Vertical padding, horizontal handled by container */
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px; /* Use gap for spacing between service boxes */
+}
+
+.service {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: calc(45% - 15px); /* Adjust width considering gap, (100% - gap*1)/2 for 2 items */
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+.service h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #b08d57;
+}
+
+.service p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-color: #f9f1e7;
+    padding: 60px 0; /* Vertical padding */
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px; /* Gap for spacing */
+}
+
+.about-text {
+    flex: 1; /* Allow text to take available space */
+    min-width: 280px; /* Minimum width before wrapping */
+    /* padding-right: 30px; Removed, using gap */
+    box-sizing: border-box;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    color: #555;
+    text-align: left;
+}
+
+.about-image {
+    flex: 1; /* Allow image to take available space */
+    min-width: 280px; /* Minimum width before wrapping */
+    max-width: 450px; /* Max width for the image container */
+    margin: 0 auto; /* Center if it's the only item in a row */
+    box-sizing: border-box;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 60px 0; /* Vertical padding */
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto 0;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px; /* Add margin above labels */
+    margin-bottom: 5px; /* Reduced margin below labels */
+    font-weight: bold;
+    color: #5c3a21;
+}
+form label:first-of-type {
+    margin-top: 0; /* No top margin for the first label */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px; /* Spacing below inputs/textarea */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1em; /* Ensure form input font size is adequate */
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+form input[type="submit"] {
+    background-color: #5c3a21;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0; /* Margin above submit button */
+}
+
+form input[type="submit"]:hover {
+    background-color: #4a2f1a;
+}
+
+/* Footer */
+footer {
+    background-color: #5c3a21;
+    color: #fdf7f2;
+    padding: 30px 0; /* Vertical padding */
+    text-align: center;
+}
+.footer-container { /* Specific container for footer */
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+footer p {
+    margin: 0 0 10px 0;
+    font-size: 0.9em;
+}
+
+.social-media a {
+    color: #fdf7f2;
+    margin: 0 10px;
+    font-size: 1.2em;
+    padding: 5px; /* Add padding for easier tapping */
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #b08d57;
+}
+
+/* Responsive Design Adjustments */
+
+/* Tablet and larger mobile devices */
+@media (max-width: 992px) { /* Adjusted breakpoint */
+    .container, .header-container, .footer-container {
+        width: 90%; /* Use more screen width */
+    }
+
+    .service {
+        /* width: calc(48% - 15px); Still two columns but with slightly more space */
+        /* Or stack earlier if content is too cramped */
+         width: calc(100% - 15px); /* Stack services earlier */
+         margin-bottom: 30px;
+    }
+     .services-container {
+        gap: 0; /* Remove gap if items are full width */
+    }
+    .service:last-child{
+        margin-bottom: 0;
+    }
+
+
+    .about-text {
+        padding-right: 0; /* Remove padding if stacking or if not needed */
+    }
+    .about-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-text, .about-image {
+        flex-basis: 100%; /* Full width when stacked */
+        max-width: 500px; /* Control max width when stacked */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-text p {
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px; /* Slightly smaller base font for smaller devices */
+    }
+    .container, .header-container, .footer-container {
+        width: 95%; /* Even more width for mobile */
+    }
+
+    .header-container {
+        flex-direction: column;
+        padding-top: 10px; /* Adjust padding */
+    }
+    .logo img {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+    nav a {
+        padding: 8px 15px; /* Larger tap area for nav links */
+    }
+
+
+    #hero {
+        min-height: 60vh;
+    }
+
+    #hero h1 {
+        font-size: 2.2em; /* Adjust font size for mobile */
+    }
+    #hero p {
+        font-size: 1.1em; /* Adjust font size for mobile */
+    }
+    .hero-overlay {
+        padding: 40px 20px;
+    }
+
+    #hero button {
+        padding: 12px 25px;
+        font-size: 1.1em;
+    }
+
+    #services h2, #about h2, #contact h2 {
+        font-size: 2em;
+    }
+    .service {
+        width: 100%; /* Ensure full width, remove calc if not needed due to gap */
+        margin-bottom: 25px; /* Consistent margin */
+    }
+     .service:last-child{
+        margin-bottom: 0;
+    }
+
+
+    .about-text p {
+        font-size: 1em; /* Adjust about text font size */
+    }
+
+    form {
+        padding: 25px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        padding: 10px;
+        font-size: 0.95em;
+    }
+    form input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Further reduce base font for very small screens */
+    }
+    .container, .header-container, .footer-container {
+        width: 100%; /* Full width for very small screens */
+        padding: 0 15px; /* Ensure some padding on edges */
+    }
+
+    #hero h1 {
+        font-size: 1.8em;
+    }
+    #hero p {
+        font-size: 1em;
+    }
+    .hero-overlay {
+        padding: 30px 15px;
+    }
+
+    #hero button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    #services h2, #about h2, #contact h2 {
+        font-size: 1.8em;
+    }
+
+    .service h3 {
+        font-size: 1.4em;
+    }
+    .service p {
+        font-size: 0.9em;
+    }
+    .service {
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+}
