@@ -6,31 +6,27 @@ const translations = {
         // Navigation
         'nav-home': 'Início',
         'nav-services': 'Serviços',
-           // Hero section
-        'hero-title': 'Solutions Professionnelles en Trichologie',
-        'hero-subtitle': 'Jackeline Ferreira • Spécialiste Certifiée en Trichologie | Genève',
-        'hero-description': 'Traitements scientifiques et personnalisés pour les problèmes capillaires, calvitie, alopécie et troubles du cuir chevelu. Diagnostic précis par trichoscopie numérique.',
-        'hero-button': 'Prendre Rendez-vous Spécialisé','nav-about': 'Sobre',
+        'nav-about': 'Sobre',
         'nav-results': 'Resultados',
         'nav-contact': 'Contato',
         
         // Hero section
-        'hero-title': 'Tricologia Clínica Especializada',
-        'hero-subtitle': 'Jackeline Ferreira • Especialista Certificada em Tricologia | Genève',
-        'hero-description': 'Tratamentos científicos e personalizados para problemas capilares, calvície, alopecia e distúrbios do couro cabeludo. Diagnóstico preciso através de tricoscopia digital.',
-        'hero-button': 'Agendar Consulta',
+        'hero-title': 'Recupere a Confiança nos Seus Cabelos, Barba e Sobrancelhas',
+        'hero-subtitle': 'Com Jackeline Ferreira • Especialista em Tricologia em Genève',
+        'hero-description': 'Pare de sofrer com queda capilar, calvície, falhas na barba ou sobrancelhas ralas. Descubra o tratamento personalizado que vai transformar sua aparência.',
+        'hero-button': 'Quero Minha Avaliação ✨',
         
         // Services section
-        'services-title': 'Serviços Especializados em Tricologia',
-        'services-subtitle': 'Diagnóstico científico e tratamentos baseados em evidências clínicas',
-        'service1-title': 'Diagnóstico por Tricoscopia Digital',
-        'service1-desc': 'Análise microscópica detalhada do couro cabeludo e folículos pilosos para identificação precisa das causas dos distúrbios capilares.',
-        'service2-title': 'Protocolo Terapêutico Personalizado',
-        'service2-desc': 'Desenvolvimento de plano de tratamento individualizado baseado no diagnóstico tricoscópico e histórico clínico do paciente.',
-        'service3-title': 'Tratamento de Alopecia Masculina',
-        'service3-desc': 'Abordagem especializada para alopecia androgenética, alopecia areata e distúrbios específicos da região da barba.',
-        'service4-title': 'Reconstrução e Densificação de Sobrancelhas',
-        'service4-desc': 'Técnicas avançadas de estimulação folicular para reconstrução natural de sobrancelhas com perda de densidade por diversos fatores.',
+        'services-title': 'Pare de Sofrer com Problemas Capilares',
+        'services-subtitle': 'Descubra como centenas de pessoas já recuperaram a autoestima e confiança',
+        'service1-title': '🔬 Diagnóstico Preciso com Tricoscopia',
+        'service1-desc': 'Através da tricoscopia digital, identifico com precisão a causa raiz dos seus problemas capilares. Sem adivinhações - apenas resultados baseados em ciência.',
+        'service2-title': '💫 Tratamento 100% Personalizado',
+        'service2-desc': 'Seu protocolo único, desenvolvido especialmente para você. Porque cada pessoa tem necessidades diferentes e merece resultados extraordinários.',
+        'service3-title': '🧔 Tratamento Especializado de Barba',
+        'service3-desc': 'Protocolo específico para homens que desejam uma barba mais densa, uniforme e saudável. Tratamento completo da pele e folículos pilosos.',
+        'service4-title': '👁️ Reconstrução de Sobrancelhas',
+        'service4-desc': 'Recupere sobrancelhas naturalmente cheias e bem definidas. Técnicas avançadas para estimular o crescimento e restaurar a beleza do seu olhar.',
         
         // Benefits
         'benefit1': 'Queda capilar excessiva',
@@ -59,49 +55,49 @@ const translations = {
         'eyebrow-benefit5': 'Recuperação da forma original',
         
         // About section
-        'about-title': 'Abordagem Científica em Tricologia',
-        'about-desc': 'O diagnóstico preciso é fundamental para o sucesso terapêutico. Utilizamos tricoscopia digital para análise detalhada do couro cabeludo, identificando as causas específicas de cada condição.',
-        'about-process': 'Com formação especializada e experiência clínica, desenvolvemos protocolos terapêuticos individualizados baseados em evidências científicas. Cada tratamento considera fatores como genética, hormônios, nutrição e estilo de vida.',
+        'about-title': 'Por que 90% dos Tratamentos Capilares Falham?',
+        'about-desc': 'A resposta é simples: porque tratam apenas os sintomas, não a causa raiz. Diferente de outros profissionais, eu utilizo a tricoscopia digital para ver exatamente o que está acontecendo no seu couro cabeludo.',
+        'about-process': 'Com mais de 10 anos de experiência e centenas de casos de sucesso, desenvolvi um método único que combina tecnologia de ponta com cuidado humanizado. Cada protocolo é criado especificamente para você - porque não existem duas pessoas iguais.',
         
         // Results section
-        'results-title': 'Eficácia Clínica',
-        'results-subtitle': 'Resultados baseados em acompanhamento clínico',
-        'result1': 'dos pacientes apresentam melhoria clínica',
-        'result2': 'casos tratados em Genève',
-        'result3': 'anos de experiência especializada',
-        'result4': 'protocolos personalizados aplicados',
-        'testimonial-text': '"O diagnóstico preciso da Dra. Jackeline identificou fatores que outros profissionais não haviam considerado. O protocolo de tratamento foi eficaz e os resultados sustentáveis."',
-        'testimonial-author': '- Paciente M.S., 42 anos',
+        'results-title': 'Resultados Que Falam Por Si',
+        'results-subtitle': 'Veja as transformações reais dos nossos clientes',
+        'result1': 'dos clientes veem melhoria em 30 dias',
+        'result2': 'vidas transformadas em Genève',
+        'result3': 'anos de experiência comprovada',
+        'result4': 'tratamentos personalizados',
+        'testimonial-text': '"Depois de anos sofrendo com queda capilar, finalmente encontrei a solução. Jackeline não só identificou a causa, como criou um protocolo que funcionou de verdade. Hoje minha autoestima está nas alturas!"',
+        'testimonial-author': '- Maria S., 42 anos',
         
         // Men's section
-        'mens-title': 'Tricologia Masculina Especializada',
-        'mens-subtitle': 'Tratamentos específicos para condições capilares masculinas',
-        'mens-beard-title': 'Tratamento de Região Barba',
-        'mens-beard-1': 'Análise tricoscópica da região facial',
-        'mens-beard-2': 'Protocolo para alopecia da barba',
-        'mens-beard-3': 'Tratamento de foliculite e pseudofoliculite',
-        'mens-beard-4': 'Cuidados especializados pós-procedimento',
-        'mens-hair-title': 'Alopecia Androgenética Masculina',
-        'mens-hair-1': 'Diagnóstico e classificação da alopecia androgenética',
-        'mens-hair-2': 'Protocolos de estimulação folicular',
-        'mens-hair-3': 'Acompanhamento pré e pós-transplante capilar',
-        'mens-hair-4': 'Prevenção e tratamento conservador',
-        'mens-cta-text': 'Casos de alopecia masculina atendidos',
-        'mens-cta-button': 'Consulta Masculina',
+        'mens-title': 'Tratamentos Especializados para Homens',
+        'mens-subtitle': 'Porque o cuidado masculino merece atenção especializada',
+        'mens-beard-title': 'Tratamento de Barba Completo',
+        'mens-beard-1': 'Análise tricoscópica da região da barba',
+        'mens-beard-2': 'Protocolos para densificar falhas',
+        'mens-beard-3': 'Tratamento de pelos encravados',
+        'mens-beard-4': 'Cuidados pós-barbear especializados',
+        'mens-hair-title': 'Calvície e Alopecia Masculina',
+        'mens-hair-1': 'Diagnóstico preciso da alopecia androgenética',
+        'mens-hair-2': 'Protocolos de estímulo capilar',
+        'mens-hair-3': 'Suporte pré/pós transplante',
+        'mens-hair-4': 'Cuidados preventivos personalizados',
+        'mens-cta-text': '💪 Mais de 200 homens já transformaram sua aparência',
+        'mens-cta-button': 'Quero Tratar Minha Barba/Cabelo',
         
         // Contact section
-        'contact-title': 'Agendamento de Consulta',
-        'contact-urgency': 'Disponibilidade para novos pacientes',
-        'contact-hours': 'Horário de atendimento: Segunda a Sábado, 09:00 às 18:00',
-        'contact-price': 'Consulta inicial com tricoscopia: CHF 80',
-        'contact-package': 'Inclui: Anamnese completa + Exame tricoscópico + Protocolo terapêutico',
-        'consultation-note': 'Primeira consulta essencial para diagnóstico preciso e planejamento terapêutico adequado.',
-        'contact-testimonial': '"Profissional altamente qualificada com abordagem científica diferenciada. Recomendo."',
-        'contact-testimonial-author': '- Dra. Sophie L., Médica Dermatologista',
-        'form-name': 'Nome completo:',
-        'form-email': 'Email de contato:',
-        'form-message': 'Descreva sua condição capilar:',
-        'form-submit': 'Enviar Solicitação',
+        'contact-title': 'Pronto Para Transformar Seus Cabelos?',
+        'contact-urgency': '⚡ Vagas Limitadas para Este Mês',
+        'contact-hours': 'Segunda à Sábado: 09:00 - 18:00',
+        'contact-price': 'Avaliação Completa: CHF 80',
+        'contact-package': 'Avaliação Tricoscópica + Protocolo Personalizado',
+        'consultation-note': 'Não perca mais tempo. Sua transformação capilar começa agora.',
+        'contact-testimonial': '"A Jackeline mudou completamente minha relação com meus cabelos. Profissional excepcional!"',
+        'contact-testimonial-author': '- Sophie L., Genève',
+        'form-name': 'Nome:',
+        'form-email': 'Email:',
+        'form-message': 'Qual é sua maior preocupação capilar:',
+        'form-submit': 'GARANTIR MINHA VAGA 🚀',
         
         // Footer
         'footer-description': 'Especialista em Tricologia em Genève',
@@ -118,8 +114,8 @@ const translations = {
         'footer-terms': 'Termos de Uso',
         
         // CTA buttons
-        'cta-text': 'Mais de 500 pacientes atendidos em Genève',
-        'cta-button': 'Solicitar Agendamento',
+        'cta-text': '⭐ Mais de 500 clientes satisfeitos em Genève',
+        'cta-button': 'Quero Minha Consulta 🚀',
         
         // Footer
         'footer-copyright': '&copy; 2025 BellaDerme - Jackeline Ferreira. Todos os direitos reservados.',
@@ -145,22 +141,22 @@ const translations = {
         'nav-contact': 'Contact',
         
         // Hero section
-        'hero-title': 'Professional Trichology Solutions',
-        'hero-subtitle': 'Jackeline Ferreira • Certified Trichology Specialist | Geneva',
-        'hero-description': 'Scientific and personalized treatments for hair problems, baldness, alopecia and scalp disorders. Precise diagnosis through digital trichoscopy.',
-        'hero-button': 'Schedule Specialized Consultation',
+        'hero-title': 'Restore Confidence in Your Hair, Beard and Eyebrows',
+        'hero-subtitle': 'With Jackeline Ferreira • Trichology Specialist in Geneva',
+        'hero-description': 'Stop suffering from hair loss, baldness, beard gaps or sparse eyebrows. Discover the personalized treatment that will transform your appearance.',
+        'hero-button': 'Get My Assessment ✨',
         
         // Services section
-        'services-title': 'Specialized Trichology Services',
-        'services-subtitle': 'Scientific diagnosis and evidence-based treatments',
-        'service1-title': 'Digital Trichoscopy Diagnosis',
-        'service1-desc': 'Detailed microscopic analysis of scalp and hair follicles for precise identification of hair disorder causes.',
-        'service2-title': 'Personalized Therapeutic Protocol',
-        'service2-desc': 'Development of individualized treatment plan based on trichoscopic diagnosis and patient clinical history.',
-        'service3-title': 'Male Alopecia Treatment',
-        'service3-desc': 'Specialized approach for androgenetic alopecia, alopecia areata and specific beard region disorders.',
-        'service4-title': 'Eyebrow Reconstruction and Densification',
-        'service4-desc': 'Advanced follicular stimulation techniques for natural eyebrow reconstruction with density loss from various factors.',
+        'services-title': 'Stop Suffering from Hair Problems',
+        'services-subtitle': 'Discover how hundreds of people have already regained their self-esteem and confidence',
+        'service1-title': '🔬 Precise Diagnosis with Trichoscopy',
+        'service1-desc': 'Through digital trichoscopy, I precisely identify the root cause of your hair problems. No guesswork - just science-based results.',
+        'service2-title': '💫 100% Personalized Treatment',
+        'service2-desc': 'Your unique protocol, developed especially for you. Because each person has different needs and deserves extraordinary results.',
+        'service3-title': '🧔 Specialized Beard Treatment',
+        'service3-desc': 'Specific protocol for men who want a denser, more uniform and healthy beard. Complete treatment of skin and hair follicles.',
+        'service4-title': '👁️ Eyebrow Reconstruction',
+        'service4-desc': 'Restore naturally full and well-defined eyebrows. Advanced techniques to stimulate growth and restore the beauty of your look.',
         
         // Benefits
         'benefit1': 'Excessive hair loss',
@@ -263,16 +259,16 @@ const translations = {
         'hero-button': 'Mon Évaluation ✨',
         
         // Services section
-        'services-title': 'Services Spécialisés en Trichologie',
-        'services-subtitle': 'Diagnostic scientifique et traitements basés sur les preuves cliniques',
-        'service1-title': 'Diagnostic par Trichoscopie Numérique',
-        'service1-desc': 'Analyse microscopique détaillée du cuir chevelu et des follicules pileux pour identification précise des causes des troubles capillaires.',
-        'service2-title': 'Protocole Thérapeutique Personnalisé',
-        'service2-desc': 'Développement de plan de traitement individualisé basé sur le diagnostic trichoscopique et l\'historique clinique du patient.',
-        'service3-title': 'Traitement de l\'Alopécie Masculine',
-        'service3-desc': 'Approche spécialisée pour l\'alopécie androgénétique, l\'alopécie aréata et les troubles spécifiques de la région de la barbe.',
-        'service4-title': 'Reconstruction et Densification des Sourcils',
-        'service4-desc': 'Techniques avancées de stimulation folliculaire pour reconstruction naturelle des sourcils avec perte de densité par divers facteurs.',
+        'services-title': 'Arrêtez de Souffrir de Problèmes Capillaires',
+        'services-subtitle': 'Découvrez comment des centaines de personnes ont déjà retrouvé leur estime de soi et leur confiance',
+        'service1-title': '🔬 Diagnostic Précis avec Trichoscopie',
+        'service1-desc': 'Grâce à la trichoscopie numérique, j\'identifie avec précision la cause racine de vos problèmes capillaires. Pas de devinettes - seulement des résultats basés sur la science.',
+        'service2-title': '💫 Traitement 100% Personnalisé',
+        'service2-desc': 'Votre protocole unique, développé spécialement pour vous. Parce que chaque personne a des besoins différents et mérite des résultats extraordinaires.',
+        'service3-title': '🧔 Traitement Spécialisé de la Barbe',
+        'service3-desc': 'Protocole spécifique pour les hommes qui veulent une barbe plus dense, uniforme et saine. Traitement complet de la peau et des follicules pileux.',
+        'service4-title': '👁️ Reconstruction des Sourcils',
+        'service4-desc': 'Retrouvez des sourcils naturellement pleins et bien définis. Techniques avancées pour stimuler la croissance et restaurer la beauté de votre regard.',
         
         // Benefits
         'benefit1': 'Chute excessive des cheveux',
@@ -503,198 +499,249 @@ class BellaDermeApp {
             } else {
                 header.style.transform = 'translateY(0)';
             }
+            
             lastScrollY = currentScrollY;
         });
     }
 
-    // Dynamic particle system
+    // Floating particles animation
     setupParticles() {
         const particlesContainer = document.querySelector('.particles');
         if (!particlesContainer) return;
-
-        const numParticles = 50;
-        for (let i = 0; i < numParticles; i++) {
+        
+        const createParticle = () => {
             const particle = document.createElement('div');
-            particle.classList.add('particle');
-            particle.style.left = `${Math.random() * 100}%`;
-            particle.style.top = `${Math.random() * 100}%`;
-            particle.style.animationDelay = `${Math.random() * 10}s`;
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 8 + 's';
+            particle.style.animationDuration = (Math.random() * 3 + 5) + 's';
+            
             particlesContainer.appendChild(particle);
-        }
+            
+            setTimeout(() => {
+                particle.remove();
+            }, 8000);
+        };
+        
+        // Create particles periodically
+        setInterval(createParticle, 300);
     }
 
-    // Animated counters for results section
+    // Animated counters
     setupCounters() {
         const counters = document.querySelectorAll('.result-number');
-        const speed = 200; // Lower is faster
-
-        counters.forEach(counter => {
-            const target = +counter.closest('.result-item').getAttribute('data-counter');
+        
+        const animateCounter = (counter) => {
+            const target = counter.textContent;
+            const isPercentage = target.includes('%');
+            const isPlus = target.includes('+');
+            const numericValue = parseInt(target.replace(/[^\d]/g, ''));
             
-            const updateCount = () => {
-                const current = +counter.innerText.replace('%','').replace('+','');
-                const increment = target / speed;
-
-                if (current < target) {
-                    counter.innerText = Math.ceil(current + increment) + (counter.closest('.result-item').getAttribute('data-counter').includes('%') ? '%' : (counter.closest('.result-item').getAttribute('data-counter').includes('+') && current > 0 ? '+' : ''));
-                    setTimeout(updateCount, 1);
+            let current = 0;
+            const increment = numericValue / 60; // Animation duration
+            
+            const updateCounter = () => {
+                current += increment;
+                if (current < numericValue) {
+                    let displayValue = Math.floor(current);
+                    if (isPercentage) displayValue += '%';
+                    if (isPlus) displayValue = '+' + displayValue;
+                    counter.textContent = displayValue;
+                    requestAnimationFrame(updateCounter);
                 } else {
-                    counter.innerText = counter.closest('.result-item').getAttribute('data-counter');
+                    counter.textContent = target;
                 }
             };
-
-            // Trigger when visible
-            const observer = new IntersectionObserver(entries => {
-                if (entries[0].isIntersecting) {
-                    updateCount();
-                    observer.unobserve(counter);
+            
+            updateCounter();
+        };
+        
+        // Observe counters
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounter(entry.target);
+                    counterObserver.unobserve(entry.target);
                 }
-            }, { threshold: 0.5 });
-            observer.observe(counter);
-        });
-    }
-
-    // Typing effect for subtitles or specific texts
-    setupTypingEffect() {
-        const elementsToType = document.querySelectorAll('[data-typing-effect]');
-        elementsToType.forEach(el => {
-            const text = el.innerText;
-            el.innerText = '';
-            let i = 0;
-            const type = () => {
-                if (i < text.length) {
-                    el.innerText += text.charAt(i);
-                    i++;
-                    setTimeout(type, 50); // Adjust speed
-                }
-            };
-            // Trigger when visible
-            const observer = new IntersectionObserver(entries => {
-                if (entries[0].isIntersecting) {
-                    type();
-                    observer.unobserve(el);
-                }
-            }, { threshold: 0.8 });
-            observer.observe(el);
-        });
-    }
-
-    // Interactive elements like hover effects, accordions, etc.
-    setupInteractiveElements() {
-        // Example: Parallax effect on hero image
-        const heroSection = document.querySelector('#hero');
-        if (heroSection) {
-            window.addEventListener('scroll', () => {
-                const scrollPosition = window.pageYOffset;
-                heroSection.style.backgroundPositionY = `${scrollPosition * 0.3}px`;
             });
-        }
-
-        // Example: Accordion for FAQs (if added later)
-        // const accordionItems = document.querySelectorAll('.faq-item');
-        // accordionItems.forEach(item => {
-        //     item.querySelector('.faq-question').addEventListener('click', () => {
-        //         item.classList.toggle('active');
-        //     });
-        // });
+        });
+        
+        counters.forEach(counter => counterObserver.observe(counter));
     }
-    
-    // Smooth scrolling for anchor links
+
+    // Typing effect for hero section
+    setupTypingEffect() {
+        const heroTitle = document.querySelector('#hero h1');
+        if (!heroTitle) return;
+        
+        const originalText = heroTitle.textContent;
+        heroTitle.textContent = '';
+        
+        setTimeout(() => {
+            let index = 0;
+            const typeText = () => {
+                if (index < originalText.length) {
+                    heroTitle.textContent += originalText.charAt(index);
+                    index++;
+                    setTimeout(typeText, 50);
+                }
+            };
+            typeText();
+        }, 1500);
+    }
+
+    // Interactive hover effects
+    setupInteractiveElements() {
+        // Service cards tilt effect
+        const serviceCards = document.querySelectorAll('.service');
+        serviceCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = (y - centerY) / 10;
+                const rotateY = (centerX - x) / 10;
+                
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(10px)`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateZ(0)';
+            });
+        });
+        
+        // Button hover effects
+        const buttons = document.querySelectorAll('.hero-button, .cta-button, .mens-cta-button, .whatsapp-submit-btn');
+        buttons.forEach(button => {
+            button.addEventListener('mouseenter', () => {
+                button.style.animation = 'pulse 0.5s ease-in-out';
+            });
+            
+            button.addEventListener('animationend', () => {
+                button.style.animation = '';
+            });
+        });
+    }
+
+    // Smooth scrolling for navigation
     setupSmoothScrolling() {
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
                 e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
+                const targetId = link.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                if (targetSection) {
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = targetSection.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
                     });
                 }
             });
         });
     }
 
-    // Change language function
+    // Language change with smooth transition
     changeLanguage(lang) {
         this.currentLang = lang;
-        document.documentElement.lang = lang.toUpperCase(); // Update HTML lang attribute
-
-        for (const key in translations[lang]) {
-            const elements = document.querySelectorAll(`[data-key="${key}"]`);
-            elements.forEach(element => {
-                // Check if the element is an input placeholder or a button
-                if (element.tagName === 'INPUT' && element.placeholder) {
-                    element.placeholder = translations[lang][key];
-                } else if (element.tagName === 'TEXTAREA' && element.placeholder) {
-                    element.placeholder = translations[lang][key];
-                } else if (element.tagName === 'BUTTON' || (element.tagName === 'A' && element.classList.contains('button'))) {
-                    // Preserve icons if any, update only text node
-                    let textNode = Array.from(element.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
-                    if (textNode) {
-                        textNode.textContent = translations[lang][key];
-                    } else {
-                         element.innerHTML = translations[lang][key]; // Fallback if no direct text node
-                    }
-                } else {
-                    element.innerHTML = translations[lang][key]; // For other elements
-                }
-            });
-        }
-        // Special handling for elements that might need attribute updates
-        document.querySelector('.skip-link').innerText = lang === 'pt' ? 'Pular para o conteúdo principal' : (lang === 'en' ? 'Skip to main content' : 'Passer au contenu principal');
-        document.querySelector('.preloader .sr-only').innerText = lang === 'pt' ? 'Carregando...' : (lang === 'en' ? 'Loading...' : 'Chargement...');
         
-        // Update WhatsApp link text based on language
-        const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
-        whatsappLinks.forEach(link => {
-            let baseText = "Olá Jackeline! Gostaria de agendar uma avaliação personalizada para cuidados capilares. Poderia me ajudar com mais informações?";
-            if (lang === 'en') {
-                baseText = "Hello Jackeline! I would like to schedule a personalized hair care assessment. Could you help me with more information?";
-            } else if (lang === 'fr') {
-                baseText = "Bonjour Jackeline! Je souhaiterais programmer une évaluation personnalisée pour les soins capillaires. Pourriez-vous m'aider avec plus d'informations?";
-            }
-            link.href = `https://wa.me/41786919208?text=${encodeURIComponent(baseText)}`;
-        });
-
-        // Update form submission logic if it depends on language
-        this.setupFormSubmission(); 
-    }
-
-    // Form submission to WhatsApp
-    setupFormSubmission() {
-        const contactForm = document.getElementById('contact-form');
-        if (contactForm) {
-            contactForm.addEventListener('submit', (event) => {
-                event.preventDefault();
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                const message = document.getElementById('message').value;
-
-                let whatsappMessage = `Olá Jackeline, meu nome é ${name}. Email: ${email}. Minha preocupação é: ${message}`;
-                if (this.currentLang === 'en') {
-                    whatsappMessage = `Hello Jackeline, my name is ${name}. Email: ${email}. My concern is: ${message}`;
-                } else if (this.currentLang === 'fr') {
-                    whatsappMessage = `Bonjour Jackeline, je m'appelle ${name}. Email: ${email}. Ma préoccupation est: ${message}`;
+        // Add fade effect during translation
+        document.body.style.opacity = '0.7';
+        
+        setTimeout(() => {
+            const elementsToTranslate = document.querySelectorAll('[data-key]');
+            elementsToTranslate.forEach(element => {
+                const key = element.getAttribute('data-key');
+                if (translations[lang] && translations[lang][key]) {
+                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                        element.placeholder = translations[lang][key];
+                    } else {
+                        element.innerHTML = translations[lang][key];
+                    }
                 }
-                
-                const whatsappURL = `https://wa.me/41786919208?text=${encodeURIComponent(whatsappMessage)}`;
-                window.open(whatsappURL, '_blank');
             });
-        }
+            
+            // Restore opacity
+            document.body.style.opacity = '1';
+        }, 150);
     }
 }
 
-// Initialize the app
+// Advanced CSS animations
+const additionalStyles = `
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.hero-button:hover {
+    animation: pulse 0.5s ease-in-out;
+}
+
+.service {
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px) !important;
+}
+`;
+
+// Inject additional styles
+const styleSheet = document.createElement('style');
+styleSheet.textContent = additionalStyles;
+document.head.appendChild(styleSheet);
+
+// Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new BellaDermeApp();
 });
 
-// Add a simple fade in for the body after styles are loaded to prevent FOUC
-document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-        document.body.style.opacity = "1";
-        document.body.style.transition = "opacity 0.5s ease-in-out";
-    }, 100); // Small delay to ensure CSS is applied
+// Performance optimization
+window.addEventListener('load', () => {
+    // Lazy load images
+    const lazyImages = document.querySelectorAll('img[data-src]');
+    const imageObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.add('loaded');
+                imageObserver.unobserve(img);
+            }
+        });
+    });
+    
+    lazyImages.forEach(img => imageObserver.observe(img));
+});
+
+// Add resize handler for responsive animations
+window.addEventListener('resize', () => {
+    // Recalculate animations on resize
+    const animatedElements = document.querySelectorAll('.visible');
+    animatedElements.forEach(el => {
+        el.style.transform = 'none';
+        el.offsetHeight; // Trigger reflow
+        el.style.transform = '';
+    });
 });
