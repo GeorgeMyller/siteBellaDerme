@@ -80,11 +80,32 @@ nav a {
     font-weight: 600; /* Made slightly bolder */
     padding: 5px 0; /* Add some padding for easier tapping */
     color: #5c3a21; /* Changed for better contrast */
+    position: relative; /* For custom underline */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 nav a:hover {
-    color: #b08d57; /* Darker gold for hover, was #d4af7a */
-    text-decoration: none;
+    color: #b08d57; /* Darker gold for hover */
+    text-decoration: none; /* Ensure no underline on hover by default */
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #b08d57; /* Underline color matches hover text color */
+    bottom: -2px; /* Position below the text, adjust as needed */
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 /* Hero Section */
@@ -136,11 +157,12 @@ nav a:hover {
     border-radius: 5px;
     font-size: 1.2em;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #hero button:hover {
     background-color: #9c7b4f;
+    transform: scale(1.05); /* Button scales up on hover */
 }
 
 /* Services Section */
@@ -180,7 +202,14 @@ nav a:hover {
     max-height: 200px;
     object-fit: cover;
     border-radius: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Space below image, above icon */
+}
+
+.service-icon {
+    font-size: 2.5em; /* Size of the icon */
+    margin-top: 0; /* Reset top margin, space handled by image margin-bottom */
+    margin-bottom: 15px; /* Space between icon and title */
+    color: #b08d57; /* Gold accent color for icons */
 }
 
 .service:hover {
@@ -189,7 +218,7 @@ nav a:hover {
 
 .service h3 {
     font-size: 1.8em;
-    margin-top: 20px; /* Added space above title, below image */
+    /* margin-top: 20px; */ /* Removed, space now handled by .service-icon margin-bottom */
     margin-bottom: 15px;
     color: #5c3a21; /* Changed to main heading color */
     /* font-weight: bold; */ /* Should inherit from global h1,h2,h3 */
@@ -331,6 +360,15 @@ form textarea {
     box-sizing: border-box;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 1em; /* Ensure form input font size is adequate */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus transition */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: none; /* Remove default browser outline */
+    border-color: #b08d57; /* Gold accent color */
+    box-shadow: 0 0 5px rgba(176, 141, 87, 0.5); /* Subtle glow with gold */
 }
 
 form textarea {
@@ -346,13 +384,14 @@ form input[type="submit"] {
     border-radius: 5px;
     font-size: 1.1em;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     display: block;
     margin: 20px auto 0; /* Margin above submit button */
 }
 
 form input[type="submit"]:hover {
     background-color: #4a2f1a;
+    transform: scale(1.05); /* Button scales up on hover */
 }
 
 /* Footer */
@@ -380,11 +419,12 @@ footer p {
     margin: 0 10px;
     font-size: 1.2em;
     padding: 5px; /* Add padding for easier tapping */
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .social-media a:hover {
     color: #b08d57;
+    transform: scale(1.1); /* Social icons scale up on hover */
 }
 
 /* Responsive Design Adjustments */
